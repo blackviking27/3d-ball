@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* logo */
+.navLogo {
+  font-weight: 800;
+}
+
+/* heading */
+#title {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
